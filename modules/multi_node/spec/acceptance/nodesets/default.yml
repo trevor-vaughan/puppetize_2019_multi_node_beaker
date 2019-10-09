@@ -1,0 +1,23 @@
+HOSTS:
+  el7:
+    roles:
+      - default
+      - server
+    platform: el-7-x86_64
+    hypervisor: vagrant
+    box: centos/7
+
+  el6:
+    roles:
+      - client
+    platform: el-6-x86_64
+    hypervisor: vagrant
+    box: centos/6
+
+CONFIG:
+  #log_level: verbose
+  type: aio
+  puppet_environment: puppet6
+  vagrant_memsize: 256
+  vagrant_cpus: 1
+  vagrant_provider: virtualbox
