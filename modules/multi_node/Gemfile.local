@@ -1,0 +1,3 @@
+group :development do
+  gem "simp-beaker-helpers", [ ">= 1.16.1", "< 2.0" ], require: false
+end

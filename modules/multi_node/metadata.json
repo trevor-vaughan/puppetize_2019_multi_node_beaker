@@ -1,62 +1,51 @@
 {
   "name": "demo-multi_node",
   "version": "0.1.0",
-  "author": "demo",
+  "author": "Trevor Vaughan - Onyx Point, Inc.",
   "summary": "",
   "license": "Apache-2.0",
   "source": "",
   "dependencies": [
-
+    { "name": "puppetlabs/stdlib" },
+    { "name": "simp/simplib" }
   ],
   "operatingsystem_support": [
     {
       "operatingsystem": "CentOS",
       "operatingsystemrelease": [
-        "7"
+        "6",
+        "7",
+        "8"
       ]
     },
     {
       "operatingsystem": "OracleLinux",
       "operatingsystemrelease": [
-        "7"
+        "6",
+        "7",
+        "8"
       ]
     },
     {
       "operatingsystem": "RedHat",
       "operatingsystemrelease": [
+        "6",
+        "7",
         "8"
       ]
     },
     {
       "operatingsystem": "Scientific",
       "operatingsystemrelease": [
+        "6",
         "7"
-      ]
-    },
-    {
-      "operatingsystem": "Debian",
-      "operatingsystemrelease": [
-        "9"
-      ]
-    },
-    {
-      "operatingsystem": "Ubuntu",
-      "operatingsystemrelease": [
-        "18.04"
-      ]
-    },
-    {
-      "operatingsystem": "windows",
-      "operatingsystemrelease": [
-        "2019",
-        "10"
       ]
     }
   ],
   "requirements": [
     {
       "name": "puppet",
-      "version_requirement": ">= 4.10.0 < 7.0.0"
+      "version_requirement": ">= 4.10.4 < 7.0.0"
     }
   ],
   "pdk-version": "1.13.0",
